@@ -20,4 +20,6 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/',[ContactController::class,'index']);
 
-Route::post('contact/confirm',[ContactController::class,'confirm']);
+Route::post('/contacts/confirm',[ContactController::class,'confirm']);
+
+Route::post('/contacts',[ContactController::class,'store']);

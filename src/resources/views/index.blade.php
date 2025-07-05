@@ -24,7 +24,7 @@
       <div class="contact-form__heading">
         <h2>お問い合わせ</h2>
       </div>
-      <form class="form" action="/contact/confirm" method="post">
+      <form class="form" action="/contacts/confirm" method="post">
          @csrf
         <div class="form__group">
           <div class="form__group-title">
